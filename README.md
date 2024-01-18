@@ -15,6 +15,7 @@ No Selenium bibliotēkas (webdriver, Service, By, Keys) izmantoju automatizēša
 Projekta kodā ir iekļauti loģiskie operatori un cikli, kas pārveido iegūto tekstu no pārlūka, ievieto tos masīvos un ar citu ciklu palīdzību spēj apstrādāt masīva elementus, lai izveidotu fināla izvadi terminālī, kas ir cilvēkam izlasāms.
 
 
-Kļūdas tiek pārbaudītas caur loģisko operatoru, salīdzinot oriģinālo url ar jauno url, kuru iegūst pēc vārda ievades terminālī. Ja vārds tiek atrast pārlūkā, tad url mainās un kamēr tie nav vienādi ar iepriekšējo url tad notiek tālākas programmas darbības. Pretējā gadījumā url varētu nemainīties dažādu iemeslu dēļ, piemēram, retos gadījumos izlec reklāma, kāda no koda funkcijām nenostrādāja, lēna apstrāde (lēns internets, pārslogots dators), vārds tika uzrakstīts nepareizi vai netika atrasts vispār. Atkārtota ievades prasība notiks, ja ievadē tika iekļauti skaitļi un jebkādi citi simboli.
+
+Kļūdas tiek pārbaudītas caur loģisko operatoru, salīdzinot oriģinālo url ar jauno url, kuru iegūst pēc vārda ievades terminālī. Ja vārds tiek atrast pārlūkā, tad url mainās un kamēr tie nav vienādi ar iepriekšējo url tad notiek tālākas programmas darbības. Pretējā gadījumā url varētu nemainīties dažādu iemeslu dēļ, piemēram, retos gadījumos izlec reklāma, kāda no koda funkcijām nenostrādāja, lēna apstrāde (lēns internets, pārslogots dators), vārds tika uzrakstīts nepareizi vai netika atrasts vispār. Atkārtota ievades prasība notiks, ja ievadē tika iekļauti skaitļi vai jebkādi citi simboli.
 
 
